@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+main {
+  margin: 80px 0px 80px 0px;
+}
+
+:root {
+  --primary: aquamarine;
+  --contrast-text: white;
+  --main-text: black;
+}

@@ -1,0 +1,14 @@
+.header-title {
+  background: aquamarine;
+  color: black;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: +1;
+  margin-top: 0;
+}
+
+/* width auf 100% wird so breit wie es viewport zulässt */

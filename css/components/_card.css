@@ -1,0 +1,66 @@
+.card {
+  position: relative;
+  margin: 20px 10%; 
+  border: 5px solid #252629;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__bookmark {
+    width: 48px;
+    height: 48x;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.card__button--showanswer {
+    position: relative;
+    border: 3px solid #252629;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.card__button--cathegory {
+    border: 2px solid #252629;
+    border-radius: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.card__button--showanswer:hover {
+background: aquamarine;
+}
+
+.card__button--cathegory:hover{
+background: aquamarine;
+}
+
+.card__bookmark:hover {
+background: aquamarine;
+}
+
+.card__bookmark--size {
+width: 48px;
+height: 48px;
+
+}
+
+/******* comment
+
+.card__bookmark {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border: 2px solid aquamarine;
+    font-size: 2em;
+    padding: 6px 12px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+} 
+
+/* 
