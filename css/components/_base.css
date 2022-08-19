@@ -20,3 +20,7 @@ main {
   --contrast-text: white;
   --main-text: black;
 }
+
+.hidden {
+  display: none;
+}

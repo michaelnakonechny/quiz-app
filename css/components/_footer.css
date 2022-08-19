@@ -12,4 +12,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100%;
 }
+
+/* .current {
+  border-radius: 1rem;
+  padding: 2px 2px 2px 2px;
+  background-color: white;
+} */

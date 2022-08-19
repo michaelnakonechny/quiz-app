@@ -50,6 +50,10 @@ height: 48px;
 
 }
 
+.question-card--answer.hidden{
+    display: none;
+}
+
 /******* comment
 
 .card__bookmark {
@@ -64,3 +68,4 @@ height: 48px;
 } 
 
 /* 
+

@@ -1,22 +1,22 @@
 .grid__profile--container {
-  scroll-margin-top: 100px;
+  margin-top: 80px;
   display: grid;
   grid-template-areas:
-    "photo photo"
+    "photo ."
     "title title"
     "about about"
     "friends posts";
 }
 
 .grid__profileitem {
-  border: 3px solid #252629;
+  border: 5px solid #252629;
+
   border-radius: 1rem;
-  border-radius: 0.5rem;
   background-color: white;
   margin: 5px;
 }
 
-.photo {
+.profilephoto {
   grid-area: photo;
 }
 

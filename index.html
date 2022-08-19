@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -19,11 +20,13 @@
     </header>
 
     <main>
+      <div class="homepage" data-js="homepage">
       <!--Card with question, text and bookmark-->
-      <section class="card">
+      <section class="card" data-js="question-card">
         <h3>Question:</h3>
         <p>What property flips the axes in flexbox?</p>
-        <button class="card__button--showanswer">show answer</button>
+        <button class="card__button--showanswer" data-js="button-click">show answer</button>
+        <p class="question-card--answer hidden" data-js="answer">Answer shows here</p>
         <p>
           <button class="card__button--cathegory">#HTML</button>
           <button class="card__button--cathegory">#CSS</button>
@@ -75,27 +78,112 @@
           />
         </div>
       </section>
+    </div>
+ <!--BOOKMARKPAGE !!!!-->
+    <div class="bookmarkspage hidden" data-js="bookmarkspage">
+      <section class="card">
+        <h3>Question:</h3>
+        <p>What property flips the axes in flexbox?</p>
+        <button class="card__button--showanswer">show answer</button>
+        <p>
+          <button class="card__button--cathegory">#HTML</button>
+          <button class="card__button--cathegory">#CSS</button>
+          <button class="card__button--cathegory">#Javascript</button>
+        </p>
+        <div class="card__bookmark">
+          <img
+            class="card__bookmark--size"
+            src="./assets/icon_bookmark_filled.svg"
+            alt="saved questions"
+          />
+        </div>
+      </section>
+
+      <!--Card with question, text and bookmark-->
+      <section class="card">
+        <h3>Question:</h3>
+        <p>What property flips the axes in flexbox?</p>
+        <button class="card__button--showanswer">show answer</button>
+        <p>
+          <button class="card__button--cathegory">#HTML</button>
+          <button class="card__button--cathegory">#CSS</button>
+          <button class="card__button--cathegory">#Javascript</button>
+        </p>
+        <div class="card__bookmark">
+          <img
+            class="card__bookmark--size"
+            src="./assets/icon_bookmark_filled.svg"
+            alt="saved questions"
+          />
+        </div>
+      </section>
+
+      <!--Card with question, text and bookmark-->
+      <section class="card">
+        <h3>Question:</h3>
+        <p>What property flips the axes in flexbox?</p>
+        <button class="card__button--showanswer">show answer</button>
+        <p>
+          <button class="card__button--cathegory">#HTML</button>
+          <button class="card__button--cathegory">#CSS</button>
+          <button class="card__button--cathegory">#Javascript</button>
+        </p>
+        <div class="card__bookmark">
+          <img
+            class="card__bookmark--size"
+            src="./assets/icon_bookmark_filled.svg"
+            alt="saved questions"
+          />
+        </div>
+      </section>
+      </div>
+ <!--BOOKMARKPAGE END !!!!-->
+
+    <!--PROFILEPAGE-->
+ <div class="profilepage hidden" data-js="profilepage">
+  <div class="grid__profile--container">
+    <div class="grid__profileitem photo">
+      <img src="./assets/iconcolored.png"/>
+    </div>
+    <div class="grid__profileitem profiletitle">
+      <p>Michael N / UX Designer</p>
+    </div>
+    <div class="grid__profileitem profilefriends">
+      <a href="#">2k Friends</a>
+
+    </div>
+    <div class="grid__profileitem profileposts">
+      <a href="#">saved bookmarks</a> 
+    </div>
+    <div class="grid__profileitem profileabout">
+      <h3>About Me</h3>
+      <p>I'm a professional UX designer specializing in Mobile Apps.</p>
+    </div>
+  </div>
+
+<div>
+  <h2>Settings</h3>
+</div>
+
+<div>
+  <h2>Darkmode</h3>
+</div>
+
+<!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</div>
+    <!--PROFILEPAGE END-->
+
     </main>
+    <!--footer with icons-->
     <footer class="footer">
       <nav class="navbarcontainer">
-        <div class="navbarcontainer__button">
-          <a href="index.html">
-            <img src="./assets/icon_home.png" alt="home" />
-          </a>
-        </div>
-        <div class="navbarcontainer__button">
-          <a href="bookmarks.html">
-            <img
-              src="./assets/icon_bookmark_filled.svg"
-              alt="saved questions"
-            />
-          </a>
-        </div>
-        <div class="navbarcontainer__button">
-          <a href="profile.html">
-            <img src="./assets/icon_profile.png" alt="profile" />
-          </a>
-        </div>
+        <button class="navbarcontainer__button current" data-js="homebutton"</button> <img src="./assets/icon_home.png" alt="home"/>
+        <button class="navbarcontainer__button" data-js="bookmarksbutton"</button> <img src="./assets/icon_bookmark_filled.svg" alt="saved questions"/> 
+        <button class="navbarcontainer__button" data-js="profilebutton"</button> <img src="./assets/icon_profile.png" alt="profile"/>
       </nav>
     </footer>
   </body>
